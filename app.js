@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const Customer = require("./model.js");
+const Customer = require("./models/customer.js");
 
 const username = prompt("What is your name? ");
 
