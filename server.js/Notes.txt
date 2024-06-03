@@ -1,0 +1,13 @@
+Customer Relationship Management (CRM) tool is an application that allows a company to keep track of their customers. In this lab. you’re going to create a terminal-based CRM application that will have full CRUD functionality on a single model: Customer.
+
+Install prompt-sync (npm i prompt-sync)
+Prompt-sync is a package that allows us to easily collect input from a user in the terminal. This is how we will interact with our application.
+To ensure prompt-sync is working, add the following code to app.js and test it using node:
+
+const prompt = require('prompt-sync')();
+const username = prompt('What is your name? ');
+
+console.log(`Your name is ${username}`);
+
+You will also need the following packages to complete this lab:
+mongoose and dotenv
